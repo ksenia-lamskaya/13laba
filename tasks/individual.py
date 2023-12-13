@@ -20,7 +20,6 @@ def abss(*a):
 
 
 if __name__ == "__main__":
-    p = list(int(i) for i in input("Введите значения: ").split())
-    result = abss(*p)
+    result = abss(2, 354, 0 , -2, 8, 5)
     print(result)
 
